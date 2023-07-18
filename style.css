@@ -19,32 +19,36 @@ section{
     padding-top: 50px;
 }
 
-.navbar{
+.bg-body-tertiary{
     display: flex;
     align-items: center;
-    gap: 40px;
-    justify-content: space-between;
+}
+.nav-item1{
+    margin-left: 350px;
+}
+.nav-item2{
+    margin-left: 50px;
+}
+.nav-item3{
+    margin-left: 50px;
+}
+.nav-item4{
+    margin-left: 50px;
 }
 
-.navbar .home{
-    margin-left: 360px;
+.navbar-collapse{
+    display: flex;
+    gap: 70px;
 }
 
-.navbar .tut{
-color: #393939;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
 }
-.navbar a{
-text-decoration: none;
-color: #393939;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
+
 
 .navbar a:hover{
     color: #FF922F;
@@ -679,12 +683,16 @@ font-size: 16px;
 margin-left: 760px;
 }
 
-footer{
+.section10{
 width: 1442px;
 height: 621px;
 background: #F2BF62;
 display: flex;
 padding-top: 88px;
+}
+
+footer{
+    display: flex;
 }
 
 footer h4{
@@ -743,32 +751,15 @@ text-align: center;
 letter-spacing: 2px;
 }
 
-select{
-    font-size: 14px;
-    width: 300px;
-    height: 40px;
-    background-color: #F2BF62;
-    border: none;
-    color: #FFF;
-}
-
-select option{
-    border: none;
-    font-family: Rubik;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.5px;
-}
 
 @media screen and (max-width: 480px) {
     .container{
-        max-width: 375px;
+        max-width: 480px;
         margin: 0 auto;
     }
 
     .navbar{
-        width: 375px;
+        width: 480px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -778,29 +769,13 @@ select option{
     }
 
     .chiz{
-    width: 322px;
+    width: 480px;
     height: 1px;
 
     }
     
-    .navbar .tut{
-    color: #393939;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    }
-    .navbar a{
-    text-decoration: none;
-    color: #393939;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    }
-
     .section2{
-        width: 375px;
+        width: 480px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -824,15 +799,15 @@ select option{
         }
 
         .comp{
-            width: 380px;
-            height: 400px;
+            width: 480px;
+            height: 500px;
         }
     .section3{
-        width: 375px;
+        width: 480px;
         flex-wrap: wrap;
     }
     .lorr p{
-        width: 375px;
+        width: 480px;
     }
     .bay{
         position: relative;
@@ -844,25 +819,27 @@ select option{
     .vvvi{
         position: absolute;
         display: flex;
+        align-items: center;
         margin-top: 100px;
     }
 
     .vvvi a{
-        margin-top: 0px;
-        margin-left: 250px;
+        margin-top: px;
+        margin-left: 100px;
     }
 
     .vvvi img{
-       margin-left: -320px;
+        margin-top: -20px;
+       margin-left: -420px;
     }
 
     .section4{
-        width: 375px;
+        width: 480px;
         display: flex;
         flex-wrap: wrap;
     }
     .purcha h1{
-    width: 375px;
+    width: 480px;
     color: #000;
     font-family: Poppins;
     font-size: 30px;
@@ -873,7 +850,7 @@ select option{
     }
 
     .purcha p{
-    width: 375px;
+    width: 480px;
 color: #90A3B4;
 font-family: Poppins;
 font-size: 12px;
@@ -882,6 +859,9 @@ font-weight: 400;
 line-height: 200%;
 }
 
+.book{
+    margin-left: 50px;
+}
 .book .lesn{
 width: 153px;
 height: 47px;
@@ -900,22 +880,23 @@ margin-right: 10px;
 }
 
 .achkarik img{
-    width: 375px;
-    height: 375px;
+    width: 480px;
+    height: 500px;
 }
 
 .section5{
-    width: 375px;
+    width: 480px;
     display:flex;
     flex-wrap: wrap-reverse;
 }
 
 .whatwill h1{
 font-size: 30px;
+margin-left: 70px;
 }
 
 .whatwill p{
-    width: 375px;
+    width: 480px;
     font-size: 30px;
     text-align: right;
 font-size: 12px;
@@ -928,11 +909,12 @@ font-size: 12px;
         border-radius: 16px;
         background: #FFF;
         box-shadow: 0px -2px 128px 0px rgba(5, 142, 110, 0.14); 
+        margin-left: 80px;
     }
 
     .lesson1 img{
         width: 34.024px;
-    height: 34.024px;
+        height: 34.024px;
         border-radius: 16px;
         background: #FFF;
         box-shadow: 0px -2px 128px 0px rgba(5, 142, 110, 0.14); 
@@ -944,12 +926,29 @@ font-size: 12px;
         border-radius: 16px;
         background: #FFF;
         box-shadow: 0px -2px 128px 0px rgba(5, 142, 110, 0.14); 
+        margin-left: 80px;
     }
     
+    .lesson2 img{
+        width: 34.024px;
+        height: 34.024px;
+        border-radius: 16px;
+        background: #FFF;
+        box-shadow: 0px -2px 128px 0px rgba(5, 142, 110, 0.14); 
+    }
     
     .lesson3{
         width: 325px;
         height: 110px;
+        border-radius: 16px;
+        background: #FFF;
+        box-shadow: 0px -2px 128px 0px rgba(5, 142, 110, 0.14); 
+        margin-left: 80px;
+    }
+
+    .lesson3 img{
+        width: 34.024px;
+        height: 34.024px;
         border-radius: 16px;
         background: #FFF;
         box-shadow: 0px -2px 128px 0px rgba(5, 142, 110, 0.14); 
@@ -970,27 +969,22 @@ font-size: 12px;
         color: black
     }
 
-    .lesson2 a{
-        font-size: 10px;
-        color: black
-    }
-
-    .lesson3 a{
-        font-size: 10px;
-        color: black
-    }
 
     .lesson2 p{
-        color: #393939;
+        font-size: 10px;
         color: #8D8D8D;
         text-align: start;
     }
-
     .lesson2 p span{
         font-size: 12px;
         color: #8D8D8D;
         text-align: start;
     }
+    .lesson2 a{
+        font-size: 10px;
+        color: black
+    }
+
 
     .lesson3 p{
         font-size: 10px;
@@ -1002,29 +996,36 @@ font-size: 12px;
         color: #8D8D8D;
         text-align: start;
     }
+    .lesson3 a{
+        font-size: 10px;
+        color: black
+    }
+
 
     .lets img{
-        width: 375px;
+        width: 480px;
     }
 
     .section6{
-        width: 375px;
+        width: 480px;
         display: flex;
         flex-wrap: wrap;
     }
 
     .heres h1{
         font-size: 30px;
+        margin-left: 80px;
     }
 
     .heres p{
-        width: 370px;
+        width: 480px;
         font-size: 12px;
     }
 
     .findat{
     width: 325px;
     height: 70px;
+    margin-left: 80px;
     }
 
     .findat p{
@@ -1041,7 +1042,8 @@ font-size: 12px;
     }
 
     .zoom{
-        width: 375px;
+        width: 480px;
+        margin-left: 60px;
     }
     .zomasos{
         position: relative;
@@ -1075,9 +1077,12 @@ font-size: 12px;
     }
 
     .section7{
-        width: 375px;
+        width: 480px;
         display: flex;
         flex-wrap: wrap;
+    }
+    .jaquon{
+        margin-left: 80px;
     }
 
     .jaquon p{
@@ -1093,7 +1098,7 @@ font-size: 12px;
     position: absolute;
         flex-wrap: wrap;
     align-items: center;
-    width: 450px;
+    width: 480px;
     height: 375px;
     }
 
@@ -1156,33 +1161,62 @@ font-size: 12px;
 
     .section10{
         width: 480px;
+        height: 1550px;
         display: flex;
         flex-wrap: wrap;
         flex-direction:unset;
+        margin-left: 15px;
+        justify-content: center;
     }
 
     footer{
-    width: 500px;
-    height: 1554px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        margin-left: -200px;
     }
+    
+    footer h4{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    footer p{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    }
+    .logolar{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 32px;
+    }
+    
 
+    
+    .findteacher{
+        margin-left: 107px;
+    }
+    
     .lessonslear{
         margin-left: 110px;
     }
-
+    
     .company{
         margin-left: 110px;
     }
-
     .moredoc{
-        padding-bottom: 200px;
-    }
-    .findteacher{
-        margin-top: -100px;
+        margin-left: 110px;
+        margin-top: -10px;
+        line-height: 10px;
     }
 
   
@@ -1190,15 +1224,14 @@ font-size: 12px;
     
     .rightcopy{
     color: #FFF;
-    text-align: center;
     font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 95px;
-    text-align: center;
+    margin-top: -100px;
     letter-spacing: 2px;
+    margin-left: 90px;
     }
    
 
