@@ -115,13 +115,6 @@ line-height: normal;
     gap: 24px;
 }
 
-.comp{
-position: absolute;
-width: 600px;
-height: 625px;
-margin-left: 657px;
-}
-
 .chiz2{
 width: 136px;
 height: 1px;
@@ -230,11 +223,7 @@ margin-top: -170px;
     gap: 10px;
 }
 
-.vvvi img{
-    border: none;
-    margin-top: 5px;
-    cursor: pointer;
-}
+
 
 
 .what p{
@@ -635,7 +624,8 @@ padding-left: 80px;
 }
 
 .jusa h1{
-    position: relative;
+width: 320px;
+position: relative;
 color: #FFF;
 font-size: 36px;
 font-style: normal;
@@ -657,42 +647,15 @@ margin-top: 20px;
 .smayl{
     position: absolute;
     margin-top: -38px;
-    margin-left: 230px;
+    margin-left: 310px;
 }
 
 .others{
+    position: relative;
     display: flex;
     align-items: center;
     gap: 15px;
     margin-top: 23px;
-}
-
-.jinga{
-    position: relative;
-}
-
-.chappga{
-    position: absolute;
-    margin-left: 30px;
-}
-
-.down{
-    position: absolute;
-    margin-left: 52px;
-}
-
-.jensh{
-    position: absolute;
-    margin-left: 78px;
-}
-
-.black{
-    position: absolute;
-    margin-left: 105px;
-}
-.others a{
-    margin-left: 110px;
-    color: white;
 }
 
 .qayir{
@@ -700,7 +663,7 @@ margin-top: 20px;
     width: 500px;
     height: 500px;
     margin-top: 100px;
-    margin-left: 51px;
+    margin-left: 10px;
 }
 .section8 button{
 position: absolute;
@@ -780,24 +743,471 @@ text-align: center;
 letter-spacing: 2px;
 }
 
-@media screen and (max-width: 375px) {
-    .container,
-    footer{
-        width: 375px;
+select{
+    font-size: 14px;
+    width: 300px;
+    height: 40px;
+    background-color: #F2BF62;
+    border: none;
+    color: #FFF;
+}
+
+select option{
+    border: none;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        max-width: 375px;
+        margin: 0 auto;
     }
-    .section2 {
-        margin-top: 95px;
+
+    .navbar{
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .navbar .home{
+        margin-left: 10px;
+    }
+
+    .chiz{
+    width: 322px;
+    height: 1px;
+
+    }
+    
+    .navbar .tut{
+    color: #393939;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .navbar a{
+    text-decoration: none;
+    color: #393939;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+
+    .section2{
+        width: 375px;
         display: flex;
         flex-wrap: wrap;
     }
 
     .section2 h1{
-        font-size: 2px;
+    color: #000000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 1.12px;
     }
 
-    .section3 p{
-        font-size: 200px;
+    .section2 span{
+        color: #FB9C46;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+        letter-spacing: 1.12px;
+        }
+
+        .comp{
+            width: 380px;
+            height: 400px;
+        }
+    .section3{
+        width: 375px;
+        flex-wrap: wrap;
     }
+    .lorr p{
+        width: 375px;
+    }
+    .bay{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .vvvi{
+        position: absolute;
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .vvvi a{
+        margin-top: 0px;
+        margin-left: 250px;
+    }
+
+    .vvvi img{
+       margin-left: -320px;
+    }
+
+    .section4{
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .purcha h1{
+    width: 375px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 1.05px;
+    }
+
+    .purcha p{
+    width: 375px;
+color: #90A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%;
+}
+
+.book .lesn{
+width: 153px;
+height: 47px;
+border-radius: 16px;
+background: #FB9C46;
+
+}
+
+.book .find{
+width: 153px;
+height: 47px;
+border-radius: 16px;
+border: 3px solid #FB9C46;
+box-shadow: 0px 3.849479913711548px 3.623039960861206px 0px rgba(64, 127, 85, 0.03), 0px 10.643319129943848px 10.017241477966309px 0px rgba(64, 127, 85, 0.04), 0px 25.625011444091797px 24.117658615112305px 0px rgba(64, 127, 85, 0.05), 0px 85px 80px 0px rgba(64, 127, 85, 0.08);
+margin-right: 10px;
+}
+
+.achkarik img{
+    width: 375px;
+    height: 375px;
+}
+
+.section5{
+    width: 375px;
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+
+.whatwill h1{
+font-size: 30px;
+}
+
+.whatwill p{
+    width: 375px;
+    font-size: 30px;
+    text-align: right;
+font-size: 12px;
+    }
+    
+    .lesson1{
+        display: flex;
+        width: 325px;
+        height: 110px;
+        border-radius: 16px;
+        background: #FFF;
+        box-shadow: 0px -2px 128px 0px rgba(5, 142, 110, 0.14); 
+    }
+
+    .lesson1 img{
+        width: 34.024px;
+    height: 34.024px;
+        border-radius: 16px;
+        background: #FFF;
+        box-shadow: 0px -2px 128px 0px rgba(5, 142, 110, 0.14); 
+    }
+    
+    .lesson2{
+        width: 325px;
+        height: 110px;
+        border-radius: 16px;
+        background: #FFF;
+        box-shadow: 0px -2px 128px 0px rgba(5, 142, 110, 0.14); 
+    }
+    
+    
+    .lesson3{
+        width: 325px;
+        height: 110px;
+        border-radius: 16px;
+        background: #FFF;
+        box-shadow: 0px -2px 128px 0px rgba(5, 142, 110, 0.14); 
+    }
+
+    .lesson1 p{
+        font-size: 10px;
+        color: #8D8D8D;
+        text-align: start;
+    }
+    .lesson1 p span{
+        font-size: 12px;
+        color: #8D8D8D;
+        text-align: start;
+    }
+    .lesson1 a{
+        font-size: 10px;
+        color: black
+    }
+
+    .lesson2 a{
+        font-size: 10px;
+        color: black
+    }
+
+    .lesson3 a{
+        font-size: 10px;
+        color: black
+    }
+
+    .lesson2 p{
+        color: #393939;
+        color: #8D8D8D;
+        text-align: start;
+    }
+
+    .lesson2 p span{
+        font-size: 12px;
+        color: #8D8D8D;
+        text-align: start;
+    }
+
+    .lesson3 p{
+        font-size: 10px;
+        color: #8D8D8D;
+        text-align: start;
+    }
+    .lesson3 p span{
+        font-size: 12px;
+        color: #8D8D8D;
+        text-align: start;
+    }
+
+    .lets img{
+        width: 375px;
+    }
+
+    .section6{
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .heres h1{
+        font-size: 30px;
+    }
+
+    .heres p{
+        width: 370px;
+        font-size: 12px;
+    }
+
+    .findat{
+    width: 325px;
+    height: 70px;
+    }
+
+    .findat p{
+        font-size: 10px;
+    }
+
+    .findat p span{
+        font-size: 12px;
+    }
+
+    .findat img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .zoom{
+        width: 375px;
+    }
+    .zomasos{
+        position: relative;
+        width: 375px;
+        margin-left: 0px;
+    }
+
+    .playzom{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-left: -187px;
+        margin-top: 150px;
+    }
+
+    .burchak{
+        position: absolute;
+        width: 162px;
+        height: 131px;
+        margin-left: -160px;
+        margin-top: 210px;
+    }
+
+    .chiz6{
+    position: absolute;
+    width: 85.312px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: -90px;
+    margin-left: 260px;
+    }
+
+    .section7{
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .jaquon p{
+        font-size: 8px;
+    }
+
+    .jaquon p span{
+        font-size: 10px;
+    }
+
+    .section8{
+    padding-top: -550px;
+    position: absolute;
+        flex-wrap: wrap;
+    align-items: center;
+    width: 450px;
+    height: 375px;
+    }
+
+    .jusa h1{
+        margin-top: -100px;
+    }
+    
+    .jusa img{
+        position: absolute;
+        margin-left: 300px;
+    }
+.others{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 23px;
+}
+
+.others a{
+    margin-left: 180px;
+    color: white;
+}
+    
+
+    .qayir{
+    
+        width: 500px;
+        height: 500px;
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+
+    .others img{
+    position: absolute;
+    margin: 0 auto;
+    }
+
+    .section8 button{
+    width: 259px;
+    height: 60px;
+    border-radius: 4px;
+    background: #FFF;
+    position: absolute;
+    border-radius: 4px;
+    background: #FFF;
+    border: none;
+    color: #FB9C46;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 200px;
+    }
+
+
+    .qayir img{
+        width: 0px;
+        height: 0px
+    }
+
+    .section10{
+        width: 480px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:unset;
+    }
+
+    footer{
+    width: 500px;
+    height: 1554px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+    }
+
+    .lessonslear{
+        margin-left: 110px;
+    }
+
+    .company{
+        margin-left: 110px;
+    }
+
+    .moredoc{
+        padding-bottom: 200px;
+    }
+    .findteacher{
+        margin-top: -100px;
+    }
+
+  
+  
+    
+    .rightcopy{
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 95px;
+    text-align: center;
+    letter-spacing: 2px;
+    }
+   
+
+    
+    
+    
+
+
+
   }
 
 
