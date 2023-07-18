@@ -590,7 +590,8 @@ padding-left: 80px;
 }
 
 .otishlar{
-    position: relative;
+    width: 80px;
+    height: 20px;
     display: flex;
     gap: 8px;
     align-items: center;
@@ -605,6 +606,7 @@ padding-left: 80px;
     height: 10px;
     border-radius: 50px;
     background-color: white;
+    border: 1px solid #FB9C46;
 }
 
 .wan:hover{
@@ -615,7 +617,6 @@ padding-left: 80px;
 }
 
 .section8{
-    position: absolute;
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -662,13 +663,6 @@ margin-top: 20px;
     margin-top: 23px;
 }
 
-.qayir{
-
-    width: 500px;
-    height: 500px;
-    margin-top: 100px;
-    margin-left: 10px;
-}
 .section8 button{
 position: absolute;
 width: 259px;
@@ -689,6 +683,7 @@ height: 621px;
 background: #F2BF62;
 display: flex;
 padding-top: 88px;
+margin-top: 100px;
 }
 
 footer{
@@ -1092,11 +1087,16 @@ font-size: 12px;
     .jaquon p span{
         font-size: 10px;
     }
+    .edusmart{
+        text-align: center;
+    }
+
+    .star11 p{
+        text-align: center;
+    }
 
     .section8{
-    padding-top: -550px;
-    position: absolute;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     align-items: center;
     width: 480px;
     height: 375px;
@@ -1122,15 +1122,6 @@ font-size: 12px;
     color: white;
 }
     
-
-    .qayir{
-    
-        width: 500px;
-        height: 500px;
-        margin-top: 100px;
-        margin-left: 150px;
-    }
-
     .others img{
     position: absolute;
     margin: 0 auto;
@@ -1154,10 +1145,6 @@ font-size: 12px;
     }
 
 
-    .qayir img{
-        width: 0px;
-        height: 0px
-    }
 
     .section10{
         width: 480px;
@@ -1167,6 +1154,7 @@ font-size: 12px;
         flex-direction:unset;
         margin-left: 15px;
         justify-content: center;
+        margin-top: 100px;
     }
 
     footer{
@@ -1220,6 +1208,31 @@ font-size: 12px;
     }
 
   
+    .otishlar{
+        width: 80px;
+        height: 20px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 200px;
+
+    }
+    
+    .wan{
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        background-color: white;
+        border: 1px solid #FB9C46;
+    }
+    
+    .wan:hover{
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        background-color: #FB9C46;
+    }
   
     
     .rightcopy{
